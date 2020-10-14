@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <script
+      src="https://kit.fontawesome.com/3b80ce88de.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>PORTFOLIO</title>
+    <style>
+      #banner {
+        /* 높이지정 */
+        height: 35vh;
+        background-image: url("images/bg_image.jpg");
+      }
+      #about {
+        text-align: center;
+        margin: 30px auto;
+        padding: 30px;
+      }
+      #about > h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+      }
+      #about > p {
+        margin: 30px auto;
+      }
+      #about > .tab_btn {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="head">
+      <div class="logo">
+        <p>JUNG YUNG <span>P</span>ARK</p>
+      </div>
+      <nav class="gnb">
+        <input type="checkbox" id="menu_btn" />
+        <label for="menu_btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="main_menu">
+          <li><a href="index.html">HOME</a></li>
+          <li>
+            <a href="about.html" style="color: #7ed0de; font-weight: bolder;"
+              >ABOUT</a
+            >
+          </li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="banner"></section>
+    <section id="about">
+      <h1>ABOUT</h1>
+      <p>JUNG YUNG PARK</p>
+      <input type="radio" name="tab" id="tab1" checked />
+      <input type="radio" name="tab" id="tab2" />
+      <input type="radio" name="tab" id="tab3" />
+
+      <div class="container">
+        <div class="item">
+          <div>
+            A
+          </div>
+          <div>
+            Arduino
+          </div>
+          <div>
+            아두이노란 물리적인 세계를 감지하고 제어할 수 있는 인터랙티브 객체들과 디지털 장치를 만들기 위한 도구로,
+            간단한 마이크로컨트롤러 보드를 기반으로 한 오픈 소스 컴퓨팅 플랫폼과 소프트웨어 개발 환경을 말합니다.
+          </div>
+        </div>
+        <div class="item">
+          <div>
+            C
+          </div>
+          <div>
+            C언어
+          </div>
+          <div>
+            C언어란, 인간과 컴퓨터 사이의 의사소통을 위한 프로그래밍 언어중 하나라고 이해하면 쉽습니다
+            이러한 프로그래밍 언어는 C언어를 포함해 C#,C++,JAVA 등 많은 종류가 존재하고 있긴하지만 그 중 가장 기본이 되는 언어가 C언어 입니다 
+          </div>
+        </div>
+        <div class="item">
+          <div>
+            J
+          </div>
+          <div>
+            JAVA
+          </div>
+          <div>
+            자바는 썬 마이크로시스템즈에서 개발하여 1996년 1월에 공식적으로 발표한 객체지향 프로그래밍 언어입니다.
+            자바로 작성된 프로그램은 운영체제의 종류와 관계없이 실행이 가능하기 때문에 운영체제에 따라 프로그램을 전혀 변경하지 않고도 실행이 가능합니다
+          </div>
+        </div>
+      </div>
+      <div class="tab_btn">
+        <label for="tab1"></label>
+        <label for="tab2"></label>
+        <label for="tab3"></label>
+      </div>
+    </section>
+    <footer id="footer">
+      <p>
+        E-Mail. 999pyg@naver.com
+      </p>
+      <p>
+        Copyright ⓒ 2020 by JUNG YUNG PARK.
+      </p>
+      <p>
+        All Rights Reserved
+      </p>
+    </footer>
+  </body>
+</html>
